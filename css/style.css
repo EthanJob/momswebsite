@@ -15,6 +15,12 @@ hr {
   z-index: 1;
 }
 
+#title {
+  /* font-family: 'Parisienne', cursive;
+  font-weight: 600;
+  font-size: 40px; */
+}
+
 body {
   background-image: url("../images/pink_rice.png");
   height: 100%;
