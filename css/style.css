@@ -47,6 +47,13 @@ body {
   margin: 0 10px 5px 0;
 }
 
+.icon2 {
+  height: 170px;
+  width: 190px;
+  float: left;
+  margin: 0 10px 5px 0;
+}
+
 .ingredients {
   display: flex;
 }
