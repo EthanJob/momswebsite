@@ -1,4 +1,4 @@
-h1 {
+h1, h2 {
   color: black;
 }
 
@@ -33,12 +33,20 @@ body {
   background-color: white;
 }
 
+.home {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 200px;
+  width: 100%;
+}
+
 .container {
   width: auto;
   height: auto;
   min-height: 100%;
   margin: 0 15% 0 15%;
-  margin-top: 90px;
+  margin-top: 400px;
   margin-bottom: 10px;
   border: 2px solid black;
   background-color: white;
