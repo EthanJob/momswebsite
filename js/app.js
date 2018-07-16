@@ -1,6 +1,6 @@
 const app = angular.module('MomsWebsite', []);
 
-app.controller('MainController', ['$http', function($http) {
+app.controller('MainController', ['$http', function($scope, $http) {
 
   this.reload = () => {
     location.reload();
