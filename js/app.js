@@ -15,11 +15,17 @@ app.controller('MainController', ['$http', function($http) {
     this.home = false;
     this.dessert = true;
     console.log("home =", this.home);
+    console.log("lunch =", this.lunch);
+    console.log("dinner =", this.dinner);
     console.log("dessert =", this.dessert);
+    console.log("=================");
   };
 
   console.log("home =", this.home);
+  console.log("lunch =", this.lunch);
+  console.log("dinner =", this.dinner);
   console.log("dessert =", this.dessert);
+  console.log("=================");
 
 
 }]);
