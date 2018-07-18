@@ -55,16 +55,16 @@ body {
   /* text-align: center; */
 }
 
-.container1 {
+.smallContainer {
   width: auto;
   height: auto;
-  /* min-height: 100%; */
-  margin: 0 15% 0 15%;
-  margin-top: 300px;
+  min-height: 100%;
+  margin: 5% 15% 0 15%;
+  /* margin-top: 450px; */
   margin-bottom: 10px;
   border: 2px solid black;
   background-color: white;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .container {
