@@ -15,7 +15,8 @@
       <h1 id="title" ng-click="ctrl.reload()">Test Title</h1>
     </div>
 
-    <div class="home">
+    <!-- Home Page -->
+    <div ng-if="ctrl.home === true" class="home">
       <h2 class=pageTitle>Home/Welcome Title Here</h2><br>
       <p>You can create beautiful things - but you have to see them in your mind first. Mix your color marbly don't mix it dead. This is the time to get out all your flustrations, much better than kicking the dog around the house or taking it out on your spouse. We have a fantastic little sky! The shadows are just like the highlights, but we're going in the opposite direction. This is a happy place, little squirrels live here and play.</p>
       <div class="pages">
@@ -24,8 +25,10 @@
         <h3 class=pageTitle ng-click="ctrl.dessertFunc()">Dessert</h3>
       </div>
     </div>
+    <!-- Home Page^ -->
 
-    <div class="container">
+    <!-- Dessert Page -->
+    <div ng-if="ctrl.dessert === true" class="container">
       <div class="sectionHead">
         <h1>Desserts</h1>
         <hr>
@@ -106,6 +109,7 @@
       </div>
 
     </div>
+    <!-- Dessert Page^ -->
 
   </body>
 </html>
