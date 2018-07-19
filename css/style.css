@@ -55,14 +55,24 @@ body {
   /* text-align: center; */
 }
 
+.popularTitle {
+  text-align: left;
+}
+
+.popularArea {
+  width: auto;
+  justify-content: center;
+  border: 2px solid red;
+}
+
 .smallContainer {
   width: auto;
   height: auto;
-  min-height: 100%;
-  margin: 5% 15% 0 15%;
-  /* margin-top: 450px; */
+  /* min-height: 100%; */
+  margin: 0% 15% 0 15%;
+  margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px solid black;
+  border: 2px solid blue;
   background-color: white;
   /* position: absolute; */
 }
