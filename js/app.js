@@ -2,56 +2,39 @@ const app = angular.module('MomsWebsite', []);
 
 app.controller('MainController', ['$http', function($scope, $http) {
 
-  this.reload = () => {
-    location.reload();
-  };
-
+  // variables
   this.home = true;
   this.lunch = false;
   this.dinner = false;
   this.dessert = false;
+  // variables^
 
-  this.lunchFunc = () => {
+  // functions
+  this.reload = () => {
+    location.reload();
+  };
+
+  this.reset = () => {
     this.home = false;
-    this.lunch = true;
+    this.lunch = false;
     this.dinner = false;
     this.dessert = false;
-    console.log("home =", this.home);
-    console.log("lunch =", this.lunch);
-    console.log("dinner =", this.dinner);
-    console.log("dessert =", this.dessert);
-    console.log("=================");
+  }
+
+  this.lunchFunc = () => {
+    this.reset();
+    this.lunch = true;
   };
 
   this.dinnerFunc = () => {
-    this.home = false;
-    this.lunch = false;
+    this.reset();
     this.dinner = true;
-    this.dessert = false;
-    console.log("home =", this.home);
-    console.log("lunch =", this.lunch);
-    console.log("dinner =", this.dinner);
-    console.log("dessert =", this.dessert);
-    console.log("=================");
   };
 
   this.dessertFunc = () => {
-    this.home = false;
-    this.lunch = false;
-    this.dinner = false;
+    this.reset();
     this.dessert = true;
-    console.log("home =", this.home);
-    console.log("lunch =", this.lunch);
-    console.log("dinner =", this.dinner);
-    console.log("dessert =", this.dessert);
-    console.log("=================");
   };
-
-  console.log("home =", this.home);
-  console.log("lunch =", this.lunch);
-  console.log("dinner =", this.dinner);
-  console.log("dessert =", this.dessert);
-  console.log("=================");
-
+  // functions^
 
 }]);
