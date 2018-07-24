@@ -23,6 +23,7 @@ hr {
 
 body {
   background-image: url("../images/pink_rice.png");
+  background-attachment: fixed;
   height: 100%;
 }
 
